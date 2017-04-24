@@ -2,11 +2,11 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 import javax.swing.event.*;
-public class lab8ex3
+public class Calculator
 {
     
     
-    public lab8ex3()
+    public Calculator()
     {
     JFrame f=new JFrame("Calc");
     f.setLocation(250,100);
@@ -77,6 +77,6 @@ public class lab8ex3
     }
 public static void main(String[] args)
 {
-new lab8ex3();
+new Calculator();
 }
 }
